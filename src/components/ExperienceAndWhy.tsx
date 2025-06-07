@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Unique Wildlife Encounters",
-  description: "Spot Magellanic penguins, sea lions, and Andean condors while learning from expert naturalist guides.",
+  title: "End of the World Cruising",
+  description: "Sail through Patagonia’s fjords, glaciers, and wildlife-rich waters aboard small, nimble ships.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Small Ship Comfort",
-  description: "Travel aboard purpose-built ships designed for exploration and comfort, with panoramic lounges and all-inclusive service",
+  title: "Zodiac Shore Landings",
+  description: "Daily landings in remote areas offer rare access to the southernmost reaches of South America.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Glacier Adventures",
-  description: "Get close to colossal ice walls and witness the power of Patagonia’s most iconic glaciers up close.",
+  title: "Bilingual Naturalist Guides",
+  description: "Engage with expert guides who interpret local ecosystems, wildlife, and cultural history.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Australis Expedition Ships",
-  description: "Ships like the Ventus Australis and Stella Australis are designed for navigating narrow fjords safely and comfortably.",
+  title: "All-Inclusive Comfort",
+  description: "Fares include accommodations, excursions, meals, and open bar in an elegant but relaxed setting.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Australis Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
